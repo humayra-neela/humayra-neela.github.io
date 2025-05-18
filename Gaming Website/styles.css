@@ -1,0 +1,158 @@
+/* General Body Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #1c1c1c, #121212);
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+  background: linear-gradient(to right, #1f1f1f, #2a2a2a);
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #ff3c00;
+  text-shadow: 1px 1px 4px #000;
+}
+
+/* Navigation Bar */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+nav a {
+  color: #00b7ff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff3c00;
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #181818;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #00e0ff;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  color: #cccccc;
+}
+
+.hero-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-images img {
+  width: 45%;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.hero-images img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 183, 255, 0.4);
+}
+
+/* Sections */
+section {
+  background-color: #1a1a1a;
+  padding: 40px 30px;
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #00b7ff;
+}
+
+section p {
+  font-size: 1.05rem;
+  color: #ddd;
+}
+
+/* Ratings Section */
+.ratings {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px 20px;
+}
+
+/* Review Form */
+.review-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.review-form input {
+  padding: 10px;
+  width: 60%;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+.review-form button {
+  padding: 10px 20px;
+  background-color: #00b7ff;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.review-form button:hover {
+  background-color: #009ddb;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1f1f1f;
+  color: #bbb;
+  font-size: 0.9rem;
+  border-top: 1px solid #2a2a2a;
+  margin-top: 60px;
+}
